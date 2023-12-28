@@ -68,25 +68,25 @@
 //}
 
 //Write a program to print N terms of the series 2 5 10 17 26 37
-main()
-{
-	int i,d,s=2,N;
-	printf("Enter a number : ");
-	scanf("%d",&N);
-	for(i=1,d=3;i<=N;i++,d++,d++)
-	{
-		printf("%d ",s);
-		s=s+d;
-	}
-	
-}
+//main()
+//{
+//	int i,d,s=2,N;
+//	printf("Enter a number : ");
+//	scanf("%d",&N);
+//	for(i=1,d=3;i<=N;i++,d++,d++)
+//	{
+//		printf("%d ",s);
+//		s=s+d;
+//	}
+//	
+//}
 
 //main()
 //{
 //	int i,s,n;
 //	printf("Enter a number : ");
 //	scanf("%d",&n);
-//	for(i=1;i<n;i++)
+//	for(i=1;i<=n;i++)
 //	{
 //		printf("%d ",i*i+1);
 //	}
