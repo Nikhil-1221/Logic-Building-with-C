@@ -37,9 +37,20 @@
 //	printf("Sum of first %d natural number is %d",n,sum);
 //}
 
+//main()
+//{
+//	int x=128;
+//	for(;x;x>>=1)//Right shift 00000010 to 00000001
+//		printf("%d\n",x);
+//}
+//output 128 64 32 16 8 4 2 1
+
 main()
 {
-	int x=128;
-	for(;x;x>>=1)
-		printf("%d\n",x);
+	int x=1,a,s;
+	for(s=0,a=5;a;x<<=1,a--)//left shift 00000001 to 00000010
+	{
+		s=s+x;
+	}
+	printf("%d ",s);
 }
