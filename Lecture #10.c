@@ -45,12 +45,14 @@
 //}
 //output 128 64 32 16 8 4 2 1
 
-main()
-{
-	int x=1,a,s;
-	for(s=0,a=5;a;x<<=1,a--)//left shift 00000001 to 00000010
-	{
-		s=s+x;
-	}
-	printf("%d ",s);
-}
+//main()
+//{
+//	int x=1,a,s;
+//	for(s=0,a=5;a;x<<=1,a--)//left shift 00000001 to 00000010
+//							//x=x<<1 x me assign karo x leftshift 1
+//	{
+//		s=s+x;
+//	}
+//	printf("%d ",s);
+//}
+//output 31
