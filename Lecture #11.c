@@ -15,12 +15,24 @@
 
 int main()
 {
-	int i = 1,N;
-	printf("Enter the value of N\n");
-	scanf("%d",&N);
-	while(i<=N)
-	{
-		printf("%d",N-1);
-		i++;
+	int a,b,rev=0;
+	printf("Enter a number : ");
+	scanf("%d",&a);
+	while(a>0){
+	b=a%10;
+	rev=rev*10+b;
+	a=a/10;
 	}
+	printf("%d",rev);
 }
+
+//main()
+//{
+//	int i,a;
+//	printf("Enter a number : ");
+//	scanf("%d",&a)
+//	do{
+//		
+//	}
+//	while()
+//}
