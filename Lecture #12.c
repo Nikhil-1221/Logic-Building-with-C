@@ -42,3 +42,33 @@
 //	else
 //		printf("Not Prime");
 //}
+
+
+//main()
+//{
+//	int i,n;
+//	printf("Enter a number : ");
+//	scanf("%d",&n);
+//	for(i=2;i<=n/2;i++)
+//		if(n%i==0)
+//			break;
+//	if(i==n/2+1)
+//		printf("Prime");
+//	else
+//		printf("Not Prime");
+//}
+
+//main()
+//{
+//	int i,n,s;
+//	printf("Enter a number : ");
+//	scanf("%d",&n);
+//	s=sqrt(n);
+//	for(i=2;i<=s;i++)
+//		if(n%i==0)
+//			break;
+//	if(i==s+1)
+//		printf("Prime");
+//	else
+//		printf("Not Prime");
+//}
