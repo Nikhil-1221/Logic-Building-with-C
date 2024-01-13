@@ -31,5 +31,4 @@
 //}
 
 
-//Write a program which takes marks obtained in an examination (out of 100) from
-//user and display the appropriate Grade
+//Write a program which takes marks obtained in an examination (out of 100) from user and display the appropriate Grade
