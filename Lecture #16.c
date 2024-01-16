@@ -167,3 +167,27 @@
 //	c=factorial(b);
 //	printf("Factorial of %d is %d",b,c);
 //}
+
+
+//Write function to find number of possible combination be made out of n items selected at a time. (Take something return something)
+//int factorial(int a)
+//{
+//	int i,fact=1;
+//	for(i=1;i<=a;i++)
+//	{
+//		fact=fact*i;
+//	}
+//	return fact;
+//}
+//int combination(int n,int r)
+//{
+//	return factorial(n)/factorial(n-r)/factorial(r);
+//}
+//main()
+//{
+//	int n,r,c;
+//	printf("Enter numbers : ");
+//	scanf("%d %d",&n,&r);
+//	c=combination(n,r);
+//	printf("Number of combination is : %d",c);
+//}
