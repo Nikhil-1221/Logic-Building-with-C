@@ -24,3 +24,46 @@
 //	
 //	return 0;
 //}
+
+//Print a pattern of numbers from 1 to n as shown below.
+//Each of the numbers is separated by a single space.
+//4 4 4 4 4 4 4
+//4 3 3 3 3 3 4
+//4 3 2 2 2 3 4
+//4 3 2 1 2 3 4
+//4 3 2 2 2 3 4
+//4 3 3 3 3 3 4
+//4 4 4 4 4 4 4
+
+int main()
+{
+	int i,j,k,r,n;
+	printf("Enter a number : ");
+	scanf("%d",&n);
+	for(i=1,r=0;i<=2*n-1;i++)
+	{
+		i<n?r++:r--;
+		k=n;
+		for(j=1;j<=2*n-1;j++)
+		{
+			if(j>=r && j<=2*n-r)
+			{
+				printf("%d",k);
+			}
+			else
+			{
+				if(j<n)
+				{
+					printf("%d",k);
+				}
+				else
+				{
+					
+				}
+			}
+			
+		}
+		printf("\n");
+	}
+	return 0;
+}
