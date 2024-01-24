@@ -42,7 +42,7 @@ int main()
 	scanf("%d",&n);
 	for(i=1,r=0;i<=2*n-1;i++)
 	{
-		i<n?r++:r--;
+		i<=n?r++:r--;
 		k=n;
 		for(j=1;j<=2*n-1;j++)
 		{
@@ -55,20 +55,16 @@ int main()
 				if(j<n)
 				{
 					printf("%d",k);
+					k--;
 				}
 				else
 				{
-					
+					k++;
+					printf("%d",k);
 				}
 			}
 		}
 		printf("\n");
 	}
-	return 0;
-}
-
-
-main()
-{
 	return 0;
 }
